@@ -35,6 +35,7 @@ class CarPaint:
         color_multiplier = self.colorsMultipliers.get(self.color, 1)
         total_price *= color_multiplier
 
+        # Выводим инфу
         print(f"Базовая цена: {self.base_price}")
         print(f"Детали: {', '.join(details_description)}")
         print(f"Цвет: {self.color} (x{color_multiplier})")
